@@ -7,7 +7,7 @@ bases:
 resources:
 - resources/namespace.yaml
 - apps/argocd.yaml # Edit the file before applying!
-# - apps/kube_prometheus_stack.yaml # Edit the file before applying!
+- apps/kube_prometheus_stack.yaml # Edit the file before applying!
 # - https://raw.githubusercontent.com/argoproj-labs/argocd-notifications/v1.0.2/manifests/install.yaml # ArgoCD Notifications
 
 patchesStrategicMerge:
